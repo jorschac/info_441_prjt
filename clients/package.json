@@ -1,0 +1,49 @@
+{
+  "name": "final",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "color-convert": "^2.0.1",
+    "d3": "^5.14.1",
+    "firebase": "^7.5.2",
+    "install": "^0.13.0",
+    "react": "^16.12.0",
+    "react-color": "^2.17.3",
+    "react-csv-reader": "^2.0.2",
+    "react-d3-library": "^1.1.8",
+    "react-dom": "^16.12.0",
+    "react-loader-spinner": "^3.1.5",
+    "react-papaparse": "^1.0.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "reactstrap": "^8.2.0",
+    "to": "^0.2.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

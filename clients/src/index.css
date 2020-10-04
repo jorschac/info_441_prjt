@@ -1,0 +1,176 @@
+body, .appContainer, h1, footer {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.appContainer {
+    padding: 0;
+    background-color: var(--lightShade);
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+header, nav {
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: var(--mainColor);
+}
+
+h1, main {
+    background-color: var(--lightShade);
+}
+
+h1 {
+    padding-left: .5em;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+nav {
+    background-color: var(--darkShade);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.hamburger-menu {
+    font-size: 2.5rem;
+    margin-left: 0.5em;
+}
+
+.fa-bars, .navigate, footer, a:visited {
+    color: var(--lightShade);
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.navigate {
+    display: none;
+    font-size: 1.2rem;
+}
+
+address > a {
+    color: inherit;
+}
+
+.active, footer {
+    background-color: var(--mainColor);
+}
+
+aside {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: var(--darkShade);
+    z-index: 3;
+    top: 0;
+    left: 0;
+    padding-top: 2.25rem;
+}
+
+aside > div > .navigate {
+    display: block;
+    padding: 1em .8em;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--lightShade);
+}
+
+.navigate:hover {
+    background-color: var(--mainColor);
+    cursor: pointer;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1em;
+    text-shadow: 1px 1px 2px #232326;
+}
+
+#tutorial_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: .5em 0em 5em 0em;
+}
+
+#tutorial_container {
+    flex-direction: column;
+}
+
+#alert {
+    text-align: center;
+    color: var(--lightShade);
+    background-color: var(--lightAccent);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0.5em auto;
+    padding: .5em;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer {
+    height: 100px;
+    padding-top: 2em;
+    text-align: center;
+    font-size: .75rem;
+}
+
+address {
+    font-style: normal;
+}
+
+footer > p > a {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    .hamburger-menu {
+        display: none;
+    }
+
+    .navigate {
+        display: inline-block;
+        padding: .75em;
+        height: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    footer {
+        height: 120px;
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navigate{
+        font-size: 1rem;
+    }
+}
